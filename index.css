@@ -15,11 +15,11 @@
   padding-left: 60vh;
 }
 
-.header__wrapper__stick {
+.header__wrapper__social__stick {
   position: relative;
 }
 
-.header__wrapper__stick::before {
+.header__wrapper__social__stick::before {
   content: "";
   position: absolute;
   top: 10px;
@@ -102,19 +102,64 @@ li::before {
 }
 
 .header__wrapper__social__icon__github::before {
-    margin-top: 60px;
-    background-image: url(/assets/Github.svg);
-    transform: rotate(180deg);
+  margin-top: 60px;
+  background-image: url(/assets/Github.svg);
+  transform: rotate(180deg);
 }
 
 .header__wrapper__social__icon__facebook:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .header__wrapper__social__icon__instagram:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .header__wrapper__social__icon__github:hover {
-    cursor: pointer;
+  cursor: pointer;
+}
+
+.header__wrapper__button__burger {
+  border: 0;
+  background: transparent;
+  position: absolute;
+  right: 50px;
+  top: 10px;
+}
+
+.header__wrapper__button__burger__1::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 7px;
+  width: 2px;
+  height: 30px;
+  background-color: black;
+  transform: rotate(90deg);
+}
+
+.header__wrapper__button__burger__2::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 7px;
+  width: 2px;
+  height: 30px;
+  background-color: black;
+  transform: rotate(90deg);
+}
+
+.header__wrapper__button__burger__3::before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 7px;
+  width: 2px;
+  height: 30px;
+  background-color: black;
+  transform: rotate(90deg);
+}
+
+.header__wrapper__button__burger:hover {
+  cursor: pointer;
 }
